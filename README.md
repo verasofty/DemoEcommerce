@@ -31,7 +31,7 @@ credentials { username authToken }
 
 ```java
 implementation 'com.github.verasofty:ConnectorLib:v1.0.8'
-implementation 'com.github.verasofty:mpos:v1.0.0'
+implementation 'com.github.verasofty:mpos:v1.0.1'
 ```
 
 4. La URL del ambiente se debe cargar en un preference, de la siguiente forma.
