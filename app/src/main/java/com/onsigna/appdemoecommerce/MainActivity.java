@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements CardDataCallback 
 
         if (tdr.getResponseCode() == 0) {
             Toast.makeText(getApplicationContext(), "¡¡¡Venta exitosa!!!\nNúmero de autorización -> " + tdr.getAuthorizationNumber(), Toast.LENGTH_LONG).show();
+            Log.i(TAG, "Venta exitosa!");
             Log.i(TAG, "AuthorizationNumber --> " + tdr.getAuthorizationNumber() );
         } else {
             Toast.makeText(getApplicationContext(), "Descripción Error -> " + tdr.getResponseCodeDescription(), Toast.LENGTH_LONG).show();
