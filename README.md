@@ -34,7 +34,7 @@ implementation 'com.github.verasofty:ConnectorLib:v1.0.8'
 implementation 'com.github.verasofty:mpos:v1.0.0'
 ```
 
-4. La URL del ambiente de INCO. Se debe cargar en un preference, de la siguiente forma.
+4. La URL del ambiente se debe cargar en un preference, de la siguiente forma.
 
 ```java
 import com.sf.connectors.ISwitchConnector;
@@ -60,7 +60,7 @@ import com.onsigna.domain.AuthenticateData;
 ```
 
 ```java
-// Variables que se deben configurar. Datos provistos por INCO
+// Variables que se deben configurar.
 private final String APLICATION_SECRET = "qs4qa1ralmgb4cna";
 private final String APLICATION_KEY = "8z00pj9qxh3vaaggo7lfyw2xkj3rv80c7o1u";
 private final String APLICATIONBUNDLE = "test.api.service"; // <-- Ambiente de Pruebas
